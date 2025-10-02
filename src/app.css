@@ -1,0 +1,15 @@
+:root { color-scheme: dark; }
+.app { display:flex; height:100vh; }
+.sidenav { width: 220px; background:#101216; padding: 16px; display:flex; flex-direction:column; gap:8px; }
+.logo { font-weight:800; letter-spacing:1px; }
+.navlink { display:block; padding:8px; border-radius:6px; color:#cbd5e1; text-decoration:none; }
+.navlink.active, .navlink:hover { background:#1b1f27; color:#fff; }
+.main { flex:1; overflow:auto; padding: 16px; }
+.grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.card { background:#151923; border-radius:8px; cursor:pointer; overflow:hidden; }
+.poster { background:#222; aspect-ratio: 2/3; background-size:cover; background-position:center; }
+.meta { padding:8px; }
+.title { font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.row { display:flex; gap:8px; align-items:center; }
+.player-modal { position:fixed; inset:0; background:rgba(0,0,0,.8); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; }
+.player-modal video { width: 90vw; max-height: 80vh; background:black; }

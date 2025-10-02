@@ -1,0 +1,11 @@
+{
+  "id": "klyro.addon.tmdb.basic",
+  "version": "1.0.0",
+  "name": "TMDB Basic",
+  "description": "Catalog and metadata from TMDB",
+  "resources": ["catalog", "meta", "search"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    { "id": "tmdb_trending", "type": "movie", "name": "Trending Movies", "extra": [{ "name": "page" }, { "name":"search" }] }
+  ]
+}
